@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url('../public/fonts/Gilroy-Medium.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url('../public/fonts/Gilroy-Light.ttf');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url('../public/fonts/Gilroy-ExtraBold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url('../public/fonts/Gilroy-SemiBold.ttf');
+  font-weight: 600;
+}
+
+body {
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+}
+
+@layer base {
+  html {
+    font-family: "Gilroy";
+  }
+}
+
+.embla__container {
+  display: flex;
+  max-width: 607px;
+  backface-visibility: hidden;
+}
+
+.embla__container_reviews {
+  display: flex;
+}
+
+.embla__slide {
+  border-radius: 15px;
+}
+
+.embla__slide + .embla__slide {
+  margin-left: 15px;
+  margin-right: 15px;
+  min-width: 0;
+}
+
+.embla__slide_reviews {
+ display: 0 0 50%;
+  min-width: 0;
+  /* padding-left: 1rem; */
+}
+
+.embla__slide_reviews + .embla__slide_reviews {
+  margin-left: 150px;
+  margin-right: 150px;
+  min-width: 0;
+}
+
+.embla__container::nth-last-child() {
+  margin-right: 0 !important;
+}
+
+
+.embla__slide {
+  flex: 0 0 70%;
+  min-width: 0;
+  /* padding-left: 1rem; */
+}
+
+.ymaps-layers-pane {
+	filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
+
+.ymaps-2-1-79-map {
+  border-radius: 20px; /* CSS3 */
+  border: 1px;
+  overflow: hidden;
+  position: relative;
+}
+
+.embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  backface-visibility: hidden;
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
