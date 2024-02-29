@@ -8,6 +8,12 @@ import BeginningCarousel from "../BeginningCarousel"
 import Navigation from "../Navigation"
 
 const BeginningBlock = () => {
+  const bgs = [
+    "bg-[url('/images/beginning/bg_1.png')]",
+    "bg-[url('/images/beginning/bg_2.png')]",
+    "bg-[url('/images/beginning/bg_3.png')]"
+  ]
+
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
   const [index, setIndex] = useState(0)
 
@@ -27,7 +33,8 @@ const BeginningBlock = () => {
   }, [emblaApi])
 
   return (
-    <div className="xl:h-[982px] h-[1020px]  xl:px-[80px] lpt-[56px] pt-[56px] xl:pl-[40px]  bg-no-repeat bg-cover bg-[url('/images/beginning/bg_1.jpeg')]">
+    <div
+      className={`xl:h-[982px] h-[1020px]  xl:px-[80px] lpt-[56px] pt-[56px] xl:pl-[40px]  bg-no-repeat bg-cover ${bgs[index]}`}>
       <div className="ml-[20px] lg:ml-0">
         <Navigation />
       </div>
