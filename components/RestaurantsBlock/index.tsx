@@ -15,7 +15,7 @@ const RestaurantsBlock = () => {
       center: [51.122081, 71.436643],
       zoom: 13
     },
-    icon: "./images/map-markers/item_1.png",
+    icon: "./images/map-markers/item_1.webp",
     marks: [
       { geometry: [51.114045, 71.438936] },
       { geometry: [51.128755, 71.438262] }
@@ -26,7 +26,7 @@ const RestaurantsBlock = () => {
       center: [50.998018, 71.374617],
       zoom: 15
     },
-    icon: "./images/map-markers/item_2.png",
+    icon: "./images/map-markers/item_2.webp",
     marks: [{ geometry: [50.998018, 71.374617] }]
   }
   const map3 = {
@@ -34,7 +34,7 @@ const RestaurantsBlock = () => {
       center: [50.998018, 71.374617],
       zoom: 15
     },
-    icon: "./images/map-markers/item_3.png",
+    icon: "./images/map-markers/item_3.webp",
     marks: [{ geometry: [50.998018, 71.374617] }]
   }
 
@@ -54,7 +54,7 @@ const RestaurantsBlock = () => {
             <div className="bg-white  h-[364px] rounded-[20px] w-full max-w-[447px] xl:p-[38px] px-[20px]">
               <div className="flex ">
                 <Image
-                  src="/images/map-markers/item_1.png"
+                  src="/images/map-markers/item_1.webp"
                   width={74}
                   height={74}
                   alt="marker"
@@ -71,7 +71,7 @@ const RestaurantsBlock = () => {
               <div>
                 <div className="flex mt-[41px]">
                   <Image
-                    src="/pointer.svg"
+                    src="/svg/pointer.svg"
                     width={14}
                     height={17}
                     alt="pointer"
@@ -82,7 +82,7 @@ const RestaurantsBlock = () => {
                 </div>
                 <div className="flex">
                   <Image
-                    src="/pointer.svg"
+                    src="/svg/pointer.svg"
                     width={14}
                     height={17}
                     alt="pointer"
@@ -95,7 +95,7 @@ const RestaurantsBlock = () => {
               <div className="mt-[38px]">
                 <div className="flex ">
                   <Image
-                    src="/calendar.svg"
+                    src="/svg/calendar.svg"
                     width={24}
                     height={24}
                     alt="calendar"
@@ -114,14 +114,19 @@ const RestaurantsBlock = () => {
             <div className="flex flex-col mt-[20px]">
               <div className="w-full cursor-pointer flex justify-center items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-gradient-to-r from-[#D90217] to-[#FF4B5C]">
                 <div className="flex">
-                  <Image src="/phone.svg" width={18} height={18} alt="phone" />
+                  <Image
+                    src="/svg/phone.svg"
+                    width={18}
+                    height={18}
+                    alt="phone"
+                  />
                   <span className="ml-[10px]">Контакты</span>
                 </div>
               </div>
               <div className="w-full cursor-pointer flex justify-center mt-[10px] items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-black">
                 <div className="flex">
                   <Image
-                    src="/pointer-white.svg"
+                    src="/svg/pointer-white.svg"
                     width={24}
                     height={24}
                     alt="pointer"
@@ -142,7 +147,7 @@ const RestaurantsBlock = () => {
               <div className="bg-white xl:p-[38px] px-[20px] flex flex-col justify-between h-[364px] rounded-[20px] w-full max-w-[447px]">
                 <div className="flex">
                   <Image
-                    src="/images/map-markers/item_2.png"
+                    src="/images/map-markers/item_2.webp"
                     width={74}
                     height={74}
                     alt="marker"
@@ -159,7 +164,7 @@ const RestaurantsBlock = () => {
                 <div>
                   <div className="flex mt-[41px]">
                     <Image
-                      src="/pointer.svg"
+                      src="/svg/pointer.svg"
                       width={14}
                       height={17}
                       alt="pointer"
@@ -172,7 +177,7 @@ const RestaurantsBlock = () => {
                 <div className="mt-[38px]">
                   <div className="flex ">
                     <Image
-                      src="/calendar.svg"
+                      src="/svg/calendar.svg"
                       width={24}
                       height={24}
                       alt="calendar"
@@ -192,7 +197,7 @@ const RestaurantsBlock = () => {
                 <div className="w-full cursor-pointer flex justify-center items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-gradient-to-r from-[#D90217] to-[#FF4B5C]">
                   <div className="flex">
                     <Image
-                      src="/phone.svg"
+                      src="/svg/phone.svg"
                       width={18}
                       height={18}
                       alt="phone"
@@ -203,7 +208,7 @@ const RestaurantsBlock = () => {
                 <div className="w-full cursor-pointer flex justify-center mt-[10px] items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-black">
                   <div className="flex">
                     <Image
-                      src="/pointer-white.svg"
+                      src="/svg/pointer-white.svg"
                       width={24}
                       height={24}
                       alt="pointer"
@@ -225,7 +230,7 @@ const RestaurantsBlock = () => {
               <div className="bg-white xl:p-[38px] px-[20px] flex flex-col justify-between h-[364px] rounded-[20px] w-full max-w-[447px]">
                 <div className="flex">
                   <Image
-                    src="/images/map-markers/item_3.png"
+                    src="/images/map-markers/item_3.webp"
                     width={74}
                     height={74}
                     alt="marker"
@@ -239,7 +244,7 @@ const RestaurantsBlock = () => {
                 <div>
                   <div className="flex mt-[41px]">
                     <Image
-                      src="/pointer.svg"
+                      src="/svg/pointer.svg"
                       width={14}
                       height={17}
                       alt="pointer"
@@ -252,7 +257,7 @@ const RestaurantsBlock = () => {
                 <div className="mt-[38px]">
                   <div className="flex ">
                     <Image
-                      src="/calendar.svg"
+                      src="/svg/calendar.svg"
                       width={24}
                       height={24}
                       alt="calendar"
@@ -272,7 +277,7 @@ const RestaurantsBlock = () => {
                 <div className="w-full cursor-pointer flex justify-center items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-gradient-to-r from-[#D90217] to-[#FF4B5C]">
                   <div className="flex">
                     <Image
-                      src="/phone.svg"
+                      src="/svg/phone.svg"
                       width={18}
                       height={18}
                       alt="phone"
@@ -283,7 +288,7 @@ const RestaurantsBlock = () => {
                 <div className="w-full cursor-pointer flex justify-center mt-[10px] items-center text-white leading-[29.82px] text-[25px] py-[15px] rounded-[10px] bg-black">
                   <div className="flex">
                     <Image
-                      src="/pointer-white.svg"
+                      src="/svg/pointer-white.svg"
                       width={24}
                       height={24}
                       alt="pointer"

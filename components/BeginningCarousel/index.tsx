@@ -2,9 +2,9 @@
 
 const BeginningCarousel = ({ ebla, index }: { ebla: any; index: number }) => {
   const urls = [
-    "bg-[url('/images/beginning/item_1.png')]",
-    "bg-[url('/images/beginning/item_2.png')]",
-    "bg-[url('/images/beginning/item_3.png')]"
+    "bg-[url('/images/beginning/item_1.webp')]",
+    "bg-[url('/images/beginning/item_2.webp')]",
+    "bg-[url('/images/beginning/item_3.webp')]"
   ]
 
   return (

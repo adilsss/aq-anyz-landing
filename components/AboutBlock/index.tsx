@@ -32,14 +32,14 @@ const AboutBlock = () => {
             </div>
           </div>
           <div className="ml-[15px] flex flex-col xl:mt-0 mt-[320px]">
-            <div className="h-[285px]  max-h-[285px]  xl:w-[666px] w-full max-w-[666px] rounded-[20px] bg-[url('/images/about/item_1.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
-            <div className="mt-[20px] h-[285px] max-h-[285px] xl:w-[666px] w-full max-w-[666px] rounded-[20px] bg-[url('/images/about/item_2.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
+            <div className="h-[285px]  max-h-[285px]  xl:w-[666px] w-full max-w-[666px] rounded-[20px] bg-[url('/images/about/item_1.webp')]  bg-cover bg-center bg-no-repeat"></div>
+            <div className="mt-[20px] h-[285px] max-h-[285px] xl:w-[666px] w-full max-w-[666px] rounded-[20px] bg-[url('/images/about/item_2.webp')]  bg-cover bg-center bg-no-repeat"></div>
           </div>
         </div>
         <div className="flex h-[999px] items-start">
           <div className="relative h-full w-[40%] xl:block hidden">
             <div className="absolute -left-[150px] top-[25%] flex h-[733px] w-[733px] rotate-[-34.12deg] items-center justify-center  overflow-hidden rounded-[80px] ">
-              <div className="absolute -top-[272px] right-[-211px] h-[999px] w-[1499px] rotate-[34.12deg]  rounded-[80px] bg-[url('/images/about/item_3.png')] bg-cover bg-clip-content bg-center  bg-no-repeat"></div>
+              <div className="absolute -top-[272px] right-[-211px] h-[999px] w-[1499px] rotate-[34.12deg]  rounded-[80px] bg-[url('/images/about/item_3.webp')] bg-cover bg-clip-content bg-center  bg-no-repeat"></div>
             </div>
           </div>
           <div className="mt-[150px] flex flex-col pr-[80px]">
@@ -108,7 +108,7 @@ const AboutBlock = () => {
           </div>
           <div className="relative h-full w-[20%] xl:block hidden">
             <div className="absolute -left-[30px] top-[25%] flex h-[733px] w-[733px] rotate-[-64.13deg] items-center justify-center  overflow-hidden rounded-[80px] ">
-              <div className="absolute -top-[249px] right-[105px] h-[1053px] w-[702px] rotate-[64.13deg]  rounded-[80px] bg-[url('/images/about/item_4.jpg')] bg-cover bg-clip-content bg-center  bg-no-repeat"></div>
+              <div className="absolute -top-[249px] right-[105px] h-[1053px] w-[702px] rotate-[64.13deg]  rounded-[80px] bg-[url('/images/about/item_4.webp')] bg-cover bg-clip-content bg-center  bg-no-repeat"></div>
             </div>
           </div>
         </div>

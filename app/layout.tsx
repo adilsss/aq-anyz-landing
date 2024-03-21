@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <head>
-        <link rel="icon" href="/images/map-markers/item_1.png" sizes="any" />
+        <link rel="icon" href="/images/map-markers/item_1.webp" sizes="any" />
       </head>
       <body>{children}</body>
     </html>

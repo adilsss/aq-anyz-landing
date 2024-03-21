@@ -40,7 +40,7 @@ const MenuItems = () => {
           </span>
           <Image
             className="mt-[24px]"
-            src="/menu-stroke.svg"
+            src="/svg/menu-stroke.svg"
             width={309}
             height={2}
             alt="arrow"

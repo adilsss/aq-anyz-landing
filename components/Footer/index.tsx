@@ -17,16 +17,16 @@ const Footer = () => {
     <div className="bg-gradient-to-l from-[#2C2B2B] to-[#000000] w-full p-[80px] flex flex-col">
       <div className="flex justify-between">
         <Link href="/">
-          <Image src="/logo.svg" width={184} height={60} alt="logo" />
+          <Image src="/svg/logo.svg" width={184} height={60} alt="logo" />
         </Link>
         <div className="xl:flex hidden items-center">
           <Link href="/">
-            <Image src="/inst.svg" width={27} height={27} alt="inst" />
+            <Image src="/svg/inst.svg" width={27} height={27} alt="inst" />
           </Link>
           <Link href="/">
             <Image
               className="ml-[17px]"
-              src="/tt.svg"
+              src="/svg/tt.svg"
               width={27}
               height={27}
               alt="tt"

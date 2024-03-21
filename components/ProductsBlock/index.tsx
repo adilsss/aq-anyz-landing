@@ -16,7 +16,7 @@ const ProductsBlock = () => {
           </div>
 
           <div className="flex h-[685px] bg-white rounded-[20px] mt-[15px]">
-            <div className="bg-[url('/images/products/item_1.png')] bg-center bg-cover w-[319px] h-[661px] mt-[12px] ml-[12px] rounded-[15px]"></div>
+            <div className="bg-[url('/images/products/item_1.webp')] bg-center bg-cover w-[319px] h-[661px] mt-[12px] ml-[12px] rounded-[15px]"></div>
             <div className="flex flex-col justify-between py-[30px] w-full max-w-[282px] ml-[30px]">
               <h3 className="text-[35px] leading-[34.65px] font-bold text-black">
                 Кондитерские изделия
@@ -31,7 +31,7 @@ const ProductsBlock = () => {
         </div>
         <div className="xl:ml-[15px] max-w-[675px] flex flex-col w-full">
           <div className="flex h-[332px] bg-white rounded-[20px] xl:mt-0 mt-[20px]">
-            <div className="bg-[url('/images/products/item_2.png')]  bg-center bg-cover w-[326px] h-[308px] mt-[12px] ml-[12px] rounded-[15px]"></div>
+            <div className="bg-[url('/images/products/item_2.webp')]  bg-center bg-cover w-[326px] h-[308px] mt-[12px] ml-[12px] rounded-[15px]"></div>
             <div className="flex flex-col justify-between py-[30px] max-w-[282px] ml-[30px] ">
               <h3 className="text-[35px] leading-[34.65px] font-bold text-black">
                 Блюда
@@ -43,7 +43,7 @@ const ProductsBlock = () => {
             </div>
           </div>
           <div className="flex max-h-[367px] bg-white rounded-[20px] mt-[15px] !pb-[30px]">
-            <div className="bg-[url('/images/products/item_3.png')] bg-center bg-cover w-[326px] h-[343px] mt-[12px] ml-[12px] rounded-[15px]"></div>
+            <div className="bg-[url('/images/products/item_3.webp')] bg-center bg-cover w-[326px] h-[343px] mt-[12px] ml-[12px] rounded-[15px]"></div>
             <div className="flex flex-col justify-between py-[30px] max-w-[282px] ml-[30px] pr-[25px]">
               <h3 className="text-[35px] leading-[34.65px] font-bold text-black">
                 Полуфабрикаты
@@ -61,7 +61,7 @@ const ProductsBlock = () => {
             <div className="w-[60px] h-[60px] xl:flex hidden items-center justify-center bg-[#E92135] rounded-[50%] cursor-pointer">
               <div>
                 <Image
-                  src="/products-arr.svg"
+                  src="/svg/products-arr.svg"
                   width={28}
                   height={24}
                   alt="arr"

@@ -52,7 +52,12 @@ const CareersBlock = () => {
             поиске
           </h3>
           <div className="absolute left-[400px] top-[200px]">
-            <Image src="/dotted-arr.svg" width={462} height={162} alt="arrow" />
+            <Image
+              src="/svg/dotted-arr.svg"
+              width={462}
+              height={162}
+              alt="arrow"
+            />
           </div>
         </div>
         <div className="mt-[62px] max-w-[514px]">
@@ -82,33 +87,38 @@ const CareersBlock = () => {
             onClick={scrollPrev}
             className="embla__prev w-[101px] h-[101px] mr-[39px] flex justify-center items-center bg-[#0000004D] rounded-[50%] cursor-pointer">
             <div>
-              <Image src="/arr-left-l.svg" width={50} height={50} alt="arrow" />
+              <Image
+                src="/svg/arr-left-l.svg"
+                width={50}
+                height={50}
+                alt="arrow"
+              />
             </div>
           </div>
         </div>
         <div className="relative flex h-[733px] w-[422x] justify-center ">
           <div className="absolute top-[-140px]">
-            <Image src="/light.svg" width={438} height={296} alt="light" />
+            <Image src="/svg/light.svg" width={438} height={296} alt="light" />
           </div>
 
-          <div className="absolute bottom-[100px]  h-[397px] w-[404px] rounded-tl-[15px] rounded-tr-[15px] bg-[url('/images/careers/bg.jpeg')] bg-cover bg-center bg-no-repeat blur-sm"></div>
+          <div className="absolute bottom-[100px]  h-[397px] w-[404px] rounded-tl-[15px] rounded-tr-[15px] bg-[url('/images/careers/bg.webp')] bg-cover bg-center bg-no-repeat blur-sm"></div>
 
           <div
             className={` flex h-[733px] w-[422px] justify-center overflow-clip`}
             ref={emblaRef}>
             <div className={`${styles.embla__container}`}>
               <div
-                className={` ${styles.embla__slide} bg-[url('/images/careers/item_1.png')]  bg-contain bg-center bg-no-repeat`}></div>
+                className={` ${styles.embla__slide} bg-[url('/images/careers/item_1.webp')]  bg-contain bg-center bg-no-repeat`}></div>
               <div
-                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_2.png')] bg-contain bg-center bg-no-repeat`}></div>
+                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_2.webp')] bg-contain bg-center bg-no-repeat`}></div>
               <div
-                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_3.png')] bg-contain bg-center bg-no-repeat`}></div>
+                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_3.webp')] bg-contain bg-center bg-no-repeat`}></div>
               <div
-                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_4.png')] bg-contain bg-center bg-no-repeat`}></div>
+                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_4.webp')] bg-contain bg-center bg-no-repeat`}></div>
               <div
-                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_5.png')] bg-contain bg-center bg-no-repeat`}></div>
+                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_5.webp')] bg-contain bg-center bg-no-repeat`}></div>
               <div
-                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_6.png')] bg-contain bg-center bg-no-repeat`}></div>
+                className={`  ${styles.embla__slide} bg-[url('/images/careers/item_6.webp')] bg-contain bg-center bg-no-repeat`}></div>
             </div>
           </div>
         </div>
@@ -122,7 +132,12 @@ const CareersBlock = () => {
             onClick={scrollNext}
             className="w-[101px] ml-[39px] h-[101px] flex items-center justify-center  bg-[#0000004D] rounded-[50%] cursor-pointer">
             <div>
-              <Image src="/arr-right-l.svg" width={50} height={50} alt="arr" />
+              <Image
+                src="/svg/arr-right-l.svg"
+                width={50}
+                height={50}
+                alt="arr"
+              />
             </div>
           </div>
         </div>

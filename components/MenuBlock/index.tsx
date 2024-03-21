@@ -6,35 +6,35 @@ import MenuItems from "../MenuItems"
 const MenuBlock = () => {
   const menuCards = [
     {
-      image: "bg-[url('/images/menu/item_1.png')]",
+      image: "bg-[url('/images/menu/item_1.webp')]",
       title: "Гуйру лагман",
       price: "2698",
       descr:
         "Ощутите нежные ароматы специй, обволакивающие каждый кусочек нежного мяса и свежих овощей, плавно утонувших в ароматном бульоне."
     },
     {
-      image: "bg-[url('/images/menu/item_2.png')]",
+      image: "bg-[url('/images/menu/item_2.webp')]",
       title: "Плов Свадебный",
       price: "2598",
       descr:
         "Насыщенный вкус и неповторимая теплота этого блюда принесут радость и благополучие вашему празднику, наполнив его восточным обаянием и изысканным вкусом."
     },
     {
-      image: "bg-[url('/images/menu/item_3.png')]",
+      image: "bg-[url('/images/menu/item_3.webp')]",
       title: "Манты с мясом",
       price: "2588",
       descr:
         "Погрузитесь в нежный вкус наших мантов с мясом, который заставит ваше сердце замирать от восторга! Откройте для себя истинное наслаждение, попробовав наши манты с мясом!"
     },
     {
-      image: "bg-[url('/images/menu/item_4.png')]",
+      image: "bg-[url('/images/menu/item_4.webp')]",
       title: "Кауырма лагман",
       price: "2788",
       descr:
         "Лапша ручной работы в сочетании с обжаренными до золотистой корочки кусочками мяса и свежими овощами, представляет собой идеальное сочетание текстур и ароматов."
     },
     {
-      image: "bg-[url('/images/menu/item_5.png')]",
+      image: "bg-[url('/images/menu/item_5.webp')]",
       title: "Думгаза",
       price: "2548",
       descr:
@@ -42,7 +42,7 @@ const MenuBlock = () => {
     },
 
     {
-      image: "bg-[url('/images/menu/item_6.png')]",
+      image: "bg-[url('/images/menu/item_6.webp')]",
       title: "Казан кебаб",
       price: "2898",
       descr:

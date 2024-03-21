@@ -9,9 +9,9 @@ import Navigation from "../Navigation"
 
 const BeginningBlock = () => {
   const bgs = [
-    "bg-[url('/images/beginning/bg_1.png')]",
-    "bg-[url('/images/beginning/bg_2.png')]",
-    "bg-[url('/images/beginning/bg_3.png')]"
+    "bg-[url('/images/beginning/bg_1.webp')]",
+    "bg-[url('/images/beginning/bg_2.webp')]",
+    "bg-[url('/images/beginning/bg_3.webp')]"
   ]
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
@@ -43,7 +43,12 @@ const BeginningBlock = () => {
           onClick={scrollPrev}
           className="embla__prev w-[73px] h-[73px] hidden xl:flex relative bg-[#0000004D] rounded-[50%] cursor-pointer">
           <div className="absolute top-[25px] left-[26px]">
-            <Image src="/arr-left-sm.svg" width={15} height={26} alt="arrow" />
+            <Image
+              src="/svg/arr-left-sm.svg"
+              width={15}
+              height={26}
+              alt="arrow"
+            />
           </div>
         </div>
         <div className="mt-[125px] flex xl:ml-[54px] ml-[0px] xl:px-[0] px-[20px]">
@@ -78,7 +83,7 @@ const BeginningBlock = () => {
                     <div className="w-[73px] h-[73px] bg-black rounded-[50%]"></div>
                     <div className="absolute top-[36px] left-[28px]">
                       <Image
-                        src="/arr-down.svg"
+                        src="/svg/arr-down.svg"
                         width={16}
                         height={65}
                         alt="arrow"
@@ -97,7 +102,12 @@ const BeginningBlock = () => {
           onClick={scrollNext}
           className="w-[73px] h-[73px] ml-[54px] hidden xl:block relative bg-[#0000004D] rounded-[50%] cursor-pointer">
           <div className="absolute top-[19px] right-[17px]">
-            <Image src="/arr-right-sm.svg" width={38} height={38} alt="arrow" />
+            <Image
+              src="/svg/arr-right-sm.svg"
+              width={38}
+              height={38}
+              alt="arrow"
+            />
           </div>
         </div>
       </div>

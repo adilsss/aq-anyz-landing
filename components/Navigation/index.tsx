@@ -16,7 +16,7 @@ const Navigation = () => {
   return (
     <nav className="flex justify-between">
       <Link className="xl:ml-[20px]" href="/">
-        <Image src="/logo.svg" width={184} height={60} alt="logo" />
+        <Image src="/svg/logo.svg" width={184} height={60} alt="logo" />
       </Link>
       <ul className="items-end justify-between gap-[64px] lg:flex hidden">
         {navItems.map(item => (

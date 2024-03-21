@@ -140,7 +140,7 @@ const ReviewsBlock = () => {
                             {Array.from(Array(item.stars)).map((i, e) => (
                               <div key={e}>
                                 <Image
-                                  src="/star.svg"
+                                  src="/svg/star.svg"
                                   width={24}
                                   height={22}
                                   alt="star"

@@ -11,7 +11,7 @@ const AdvantagesBlock = () => {
       </h1>
       <div className="mt-[24px]">
         <div className="xl:block hidden">
-          <Image src="/red-stroke.svg" width={1160} height={2} alt="bell" />
+          <Image src="/svg/red-stroke.svg" width={1160} height={2} alt="bell" />
         </div>
       </div>
       <AdvantageItem />
